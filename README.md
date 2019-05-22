@@ -290,10 +290,10 @@ This is a complete example of the navbar working, you only need to set the jquer
 ```html
 <html>
     <head>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="easyMenu.js"></script>
+    <script src="components/jquery/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="components/bootstrap/css/bootstrap.min.css">
+    <script src="components/bootstrap/js/bootstrap.min.js"></script>
+    <script src="components/easymenu/easyMenu.min.js"></script>
     <script>
     $(document).ready(function() {
         $('.testNav').easyMenu({
