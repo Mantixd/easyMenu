@@ -1,0 +1,99 @@
+
+<html>
+    <head>
+    <script src="components/jquery/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="components/bootstrap/css/bootstrap.min.css">
+    <script src="components/bootstrap/js/bootstrap.min.js"></script>
+    <script src="components/easymenu/easyMenu.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        $('.testNav').easyMenu({
+            options: {
+                separator: ";",
+                search_button: true,
+                logo: {
+                    haslogo: true,
+                    src: 'https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg'
+                },
+                tittle: {
+                    hastittle: true,
+                    text: "easyMenu"
+                },
+                main: {                                
+                    text: "Main1;Main2;Main3;Main4"
+                },
+                childs: {
+                    data_childs: {
+                        "Main1": {
+                            type: "dropdown",
+                            objetive:"Main1",
+                            text: "Child1;Child2",
+                            value: "http://child1.com/;http://child2.com/"
+                        },
+                        "Main2": {
+                            type: "dropdown",
+                            objetive:"Main2",
+                            text: "Child3;Child4",
+                            value: "http://child3.com/;http://child4.com/"
+                        },
+                        "Main3": {
+                            type: "link",
+                            objetive:"Main3",
+                            value: "http://main5.com"
+                        },                                    
+                        "Main4": {
+                            type: "link",
+                            objetive:"Main4",
+                            value: "http://main6.com"
+                        }
+                    }
+                },
+                style: {
+                iscustom: true,
+                menu: {                                    
+                    background_color: "#000000",
+                    textcolor: "#FFFFFF",
+                    fontsize: "16px",
+                    fontweight: "bold"
+                },
+                submenu: {
+                    background_color: "#000000",
+                    textcolor: "#007bff",
+                    fontsize: "18px",
+                    fontweight: "bold",
+                    item_active_background_color: "#000000"
+                },
+                tittle: {
+                    background_color: "#000000",
+                    textcolor: "red",
+                    fontsize: "18px",
+                    fontweight: "bold"
+                },
+                search: {
+                    btn: {
+                        fontsize:"16px",
+                        textcolor: "#007bff",
+                        background_color: "#000000",
+                        fontweight: "bold",
+                        border: "1px solid #ced4da",
+                        border_radius: ".25rem"                                  
+                    },
+                    input: {
+                        fontsize:"16px",
+                        textcolor: "#007bff",
+                        background_color: "#000000",
+                        fontweight: "bold",
+                        border: "1px solid #ced4da",
+                        border_radius: ".25rem"
+                    }
+                }
+            }
+            }
+        });
+    });
+    </script>
+    </head>
+    <body>
+          <div class="testNav"></div>
+    </body>
+</html>
