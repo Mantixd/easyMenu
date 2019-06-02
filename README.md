@@ -409,3 +409,9 @@ See the [tags on this repository](https://github.com/Mantixd/easyMenu/tags).
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
 
+## Donation
+
+If my work likes you or helps you a little, i will apreciate it your help with this project and others coming:
+
+Buy me a ☕️: https://www.buymeacoffee.com/ricardoperez
+Paypal: https://paypal.me/MantixSystems
