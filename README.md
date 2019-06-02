@@ -413,5 +413,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) f
 
 If my work likes you or helps you a little, i will apreciate it your help with this project and others coming:
 
-Buy me a ☕️: https://www.buymeacoffee.com/ricardoperez
-Paypal: https://paypal.me/MantixSystems
+Buy me a ☕️: https://www.buymeacoffee.com/ricardoperez<br/>  Paypal: https://paypal.me/MantixSystems
